@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HACK BLUE TEAM</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      direction: rtl;
+      background-color: #f0f4ff;
+      color: #003366;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      align-items: center;
+      padding: 20px;
+    }
+    header {
+      background-color: #2563eb;
+      width: 100%;
+      max-width: 600px;
+      padding: 20px;
+      border-radius: 10px;
+      color: white;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(37, 99, 235, 0.5);
+      margin-bottom: 10px;
+    }
+    .links-container {
+      width: 100%;
+      max-width: 600px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 25px;
+    }
+    a.youtube-btn, a.roblox-btn {
+      color: white;
+      padding: 10px 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      gap: 8px;
+      transition: background-color 0.3s ease;
+      white-space: nowrap;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+    a.youtube-btn {
+      background: #ff0000;
+    }
+    a.youtube-btn:hover {
+      background-color: #cc0000;
+    }
+    a.roblox-btn {
+      background: #0078d7;
+    }
+    a.roblox-btn:hover {
+      background-color: #005a9e;
+    }
+    main {
+      width: 100%;
+      max-width: 600px;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      height: 500px;
+      overflow: hidden;
+    }
+    .intro {
+      text-align: center;
+      padding: 20px;
+      border-bottom: 1px solid #ddd;
+    }
+    .intro h2 {
+      color: #2563eb;
+      margin-bottom: 5px;
+    }
+    .intro p {
+      color: #555;
+      font-size: 1rem;
+    }
+    #chat-box {
+      flex-grow: 1;
+      padding: 20px;
+      overflow-y: auto;
+      background: #e9f0ff;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .chat-bubble {
+      background-color: #2563eb;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 20px 20px 0 20px;
+      max-width: 70%;
+      margin-left: auto;
+      word-wrap: break-word;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+      font-size: 1rem;
+      animation: fadeIn 0.3s ease;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(10px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    form {
+      display: flex;
+      border-top: 1px solid #ccc;
+      background-color: white;
+      padding: 0;
+    }
+    input[type="text"] {
+      flex-grow: 1;
+      padding: 15px 20px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 0 0 0 12px;
+      outline: none;
+    }
+    button {
+      background-color: #2563eb;
+      border: none;
+      color: white;
+      padding: 0 15px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 0 0 12px 0;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #1e40af;
+    }
+    /* Scrollbar */
+    #chat-box::-webkit-scrollbar {
+      width: 8px;
+    }
+    #chat-box::-webkit-scrollbar-track {
+      background: #dbe9ff;
+      border-radius: 4px;
+    }
+    #chat-box::-webkit-scrollbar-thumb {
+      background: #2563eb;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Hack Blue Team</header>
+
+  <div class="links-container">
+    <a href="https://www.youtube.com/@Hackblueteamleader" target="_blank" rel="noopener" class="youtube-btn" title="قناة يوتيوب">
+      حساب يوتيوب
+      <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="18" height="18">
+        <path d="M10 15l5.19-3L10 9v6z"></path>
+        <path d="M21.8 7.6a2.84 2.84 0 00-2-2c-1.77-.47-8.8-.47-8.8-.47s-7.03 0-8.8.47a2.84 2.84 0 00-2 2A29.5 29.5 0 002 12a29.5 29.5 0 00.2 4.4 2.84 2.84 0 002 2c1.77.47 8.8.47 8.8.47s7.03 0 8.8-.47a2.84 2.84 0 002-2 29.5 29.5 0 00.2-4.4 29.5 29.5 0 00-.2-4.4zM10 15V9l5.19 3L10 15z"/>
+      </svg>
+    </a>
+
+    <a href="https://www.roblox.com/communities/35277347/Hackblueteam#!/about" target="_blank" rel="noopener" class="roblox-btn" title="جروب روبلكس">
+      جروب روبلكس
+      <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="18" height="18">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5-10-5-10 5zm10-7l10 5-10 5-10-5 10-5z"/>
+      </svg>
+    </a>
+  </div>
+
+  <main>
+    <section class="intro">
+      <h2>اهلا في هاك بلو تيم</h2>
+      <p>تيم هكرات وبرمجه واخترق</p>
+    </section>
+
+    <div id="chat-box"></div>
+
+    <form id="chat-form" autocomplete="off">
+      <input type="text" id="chat-input" placeholder="اكتب الرساله هنا..." required />
+      <button type="submit">
+        ابعت
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18" viewBox="0 0 24 24">
+          <line x1="22" y1="2" x2="11" y2="13"></line>
+          <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+        </svg>
+      </button>
+    </form>
+  </main>
+
+  <script>
+    const chatForm = document.getElementById('chat-form');
+    const chatInput = document.getElementById('chat-input');
+    const chatBox = document.getElementById('chat-box');
+
+    chatForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const message = chatInput.value.trim();
+      if (!message) return;
+
+      const msgDiv = document.createElement('div');
+      msgDiv.textContent = message;
+      msgDiv.classList.add('chat-bubble');
+
+      chatBox.appendChild(msgDiv);
+      chatBox.scrollTop = chatBox.scrollHeight;
+
+      chatInput.value = '';
+      chatInput.focus();
+    });
+  </script>
+
+</body>
+</html>
