@@ -1,0 +1,14 @@
+.developers-btn {
+  background: linear-gradient(90deg, #1d4ed8, #3b82f6);
+  color: white;
+  padding: 15px 40px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: background 0.3s ease;
+}
+.developers-btn:hover {
+  background: linear-gradient(90deg, #1e3a8a, #2563eb);
+}
